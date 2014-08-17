@@ -1,0 +1,46 @@
+============================================HOWTO=========================================
+=											      =
+=		     Pay with Paga & Card Payments Open Cart Plugin 			      =
+=			Developed by Future Software Resources Ltd			      =
+=				www.futuresoft-ng.com					      =
+=											      =
+==========================================================================================
+
+Installing Admin Files
+----------------------
+
+->Copy files from admin->controller->payment to your admin->controller->payment folder within your opencart installation.
+
+->Copy files from admin->language->english->payment to your admin->language->english->payment folder within your opencart installation
+
+->Copy files from admin->view->template->payment to your admin->view->template->payment folder within your opencart installation
+
+->Copy all images within the images folder to your admin->view->image->payment folder within your opencart installation
+
+
+Installing Catalog Files
+-------------------------
+
+->Copy file inside catalog->controller->payment Folder To your catalog->controller->payment
+
+->Copy file inside catalog->model->payment Folder To your catalog->model->payment
+
+->Copy file inside catalog->language->english->payment Folder To your catalog->language->english->payment
+
+->Copy file inside catalog->view->theme->templateName/(default)->template->payment Folder To your catalog->view->theme->templateName/default->template->payment
+
+===================================================
+=       INSTALLATION ON OPENCART		    =
+===================================================
+
+Now you need to install the modules after logging in to the admin area:
+
+1. Go to Extenson->Payments->(Find Paga and/or Paga MasterCard) and click on install. 
+
+2. Click to Edit the module and enter your PAGA unique Merchant Key and other setting required.
+
+
+******************************************************************************************
+This module is valid with only one Paga Merchant Key linked to one website. 
+Kindly contact Paga to set up a 2nd merchant key linked to a 2nd website if need be.
+******************************************************************************************
